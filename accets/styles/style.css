@@ -35,17 +35,10 @@
   background-color:white; 
   color: #333333;
 }
-.container {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
 .item-container-header{
   display:flex;
   flex-direction: column;
-  
   align-items: center;
 }
 .item-container-main{
@@ -54,18 +47,27 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding:2% 15%;
-  background-color: #333333;
-  
+  background-color: #333333; 
+}
+
+.item-container-mainend{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .item-container-footer{
   display:flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
 }
 
 .p-header {
   padding:2%;
   font-size: 1.1em;
- 
 }
 
 .bord {
@@ -94,5 +96,17 @@
 
  }
 
+ .section-about1,
+ .section-about2
+ {
+  color: white;
+ }
+
+ .section-about1 {
+  background-color: #2690d4;
+ }
+ .section-about2 {
+  background-color: #333333;
+ }
 
 
