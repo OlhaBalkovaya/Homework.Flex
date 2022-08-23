@@ -21,7 +21,7 @@
 
 .button-header{
   background-color:#333333;
-  margin: 20px;
+  margin: 30px;
   padding: 10px 15px;
   border: 1px solid white;
   text-decoration: none;
@@ -36,17 +36,12 @@
   color: #333333;
 }
 
-.item-container-header{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
 .item-container-main{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding:2% 15%;
+  padding:2% 20%;
   background-color: #333333; 
 }
 
@@ -65,23 +60,16 @@
   color: white;
 }
 
-.p-header {
-  padding:2%;
+.for-p {
+  padding:2vh 2vw;
   font-size: 1.1em;
 }
 
-.bord {
-  border:2px solid rebeccapurple;
-}
 
 .formargin{
-  margin:2% 35%;
+  margin:2% 20%;
 }
 
-
-.mainsection-first {
-  background-color: #eaeaea;
-}
 
 
 
@@ -100,6 +88,7 @@
  .section-about2
  {
   color: white;
+  width: 50%;
  }
 
  .section-about1 {
